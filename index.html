@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Buttons</title>
+  <style>
+    body {
+      text-align: center;
+    }
+    body {
+      background-color: #07ed2d;
+}
+    h1 {
+      margin-top: 30px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 30px 40px;
+      font-size: 35px;
+      border: none;
+      cursor: pointer;
+      margin: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Nirmal.org</h1>
+  <button onclick="openWebsite('https://www.youtube.com')">YouTube</button>
+  <button onclick="openWebsite('https://www.google.com')">Google</button>
+  <button onclick="openWebsite('https://nirmal7312.github.io/calcaman.github.io/')">Calculator</button>
+  <!-- Add more buttons for other websites if needed -->
+  
+  <script>
+    function openWebsite(url) {
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>
