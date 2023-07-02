@@ -12,6 +12,12 @@
     h1 {
       margin-top: 30px;
     }
+     table {
+      margin: 0 auto;
+    }
+    td {
+      padding: 10px;
+    }
     button {
       background-color: #4CAF50;
       color: white;
@@ -26,10 +32,19 @@
 </head>
 <body>
   <h1>Welcome to Nirmal.org</h1>
-  <button onclick="openWebsite('https://www.youtube.com')">YouTube</button>
-  <button onclick="openWebsite('https://www.google.com')">Google</button>
-  <button onclick="openWebsite('https://nirmal7312.github.io/calcaman.github.io/')">Calculator</button>
+  <table>
+    <tr>
+      <td><button onclick="openWebsite('https://www.youtube.com')">YouTube</button></td>
+      <td><button onclick="openWebsite('https://www.google.com')">Google</button></td>
+     
   <!-- Add more buttons for other websites if needed -->
+
+    </tr>
+    <tr>
+      <td><button onclick="openWebsite('https://nirmal7312.github.io/calcaman.github.io/')">Calculator</button></td>
+      <td><button onclick="openWebsite('https://nirmal7312.github.io/calcaman.github.io/')">Calculator</button></td>
+    </tr>
+    <table>
   
   <script>
     function openWebsite(url) {
